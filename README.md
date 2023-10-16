@@ -14,8 +14,7 @@ The key helper procedures implemented in this project are as follows:
 
 4. **`process_target()`**: This procedure receives the IP address of a router and determines if there is an interface whose IP address matches the given one.
 
-# Router's Dataplane Implementation
-
+# Implementation
 
 The router's dataplane implemented in the `router.c` file represents the core of the router's functionality.
 
