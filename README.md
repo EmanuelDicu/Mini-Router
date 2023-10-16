@@ -1,4 +1,4 @@
-# Router Dataplane with Longest Prefix Match Routing Table
+# Router Dataplane Implementation
 
 This project implements a router's dataplane with a Longest Prefix Match routing algorithm. The routing table is implemented using a Trie tree, which allows for fast lookups and insertions.
 
@@ -16,11 +16,8 @@ The key helper procedures implemented in this project are as follows:
 
 # Router's Dataplane Implementation
 
-Welcome to the Router's Dataplane Implementation repository! This project presents a comprehensive router dataplane implemented in the `router.c` file. The router's dataplane is designed to process Ethernet frames and make routing decisions based on a Longest Prefix Match routing table. It handles various types of packets, including ICMP, ARP, and IP packets, and ensures efficient packet forwarding.
 
-## Overview
-
-The router's dataplane implemented in the `main.c` file serves several critical purposes, making it a pivotal component in a network infrastructure:
+The router's dataplane implemented in the `router.c` file represents the core of the router's functionality.
 
 ### Initialization
 
